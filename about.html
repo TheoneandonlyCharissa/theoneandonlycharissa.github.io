@@ -2,84 +2,106 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <meta name="vieuwport" content="width=device-width, initial-scale=1.0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title> Charissa Kalka</title>
         <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/about.css">
+       <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
     </head>
 
 
 <body>
-    <header id="header">
-        <h1 class="logo=text"> Charissa Kalka </h1>
-        <nav class="nav">
-            <a class="nav-link" href="/">Home</a>
-            <a class="nav-link" href="/about.html">About</a> 
-            <a class="nav-link" href="/work.html">Work</a>  
-            <a class="nav-link" href="/contact.html">Contact</a>
+    <nav class="navbar">
+            <div class="navbar-container">
+                <a href="index-html" class="navbar-logo">CK</a>
+                <button class="navbar-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+                <ul class="navbar-menu">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/work.html">Work</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </div>
         </nav>
 
-        <button id="sidebar-trigger">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu-icon lucide-menu"><path d="M4 5h16"/><path d="M4 12h16"/><path d="M4 19h16"/></svg> 
-        </button>
-    </header>
+        <main class="about-page">
+            <h1 class="section-title">
+                <img src="/img/8bitpoes.png" alt="poes">
+                About Me
+            </h1>
+            <div class="about-grid">
+                <div class="about-left">
+                    <div class="about-image">
+                        <img src="img/charissagraduation.jpg" alt="Charissa">
+                    </div>
+                    <div class="about-section interest">
+                        <h2>Interests</h2>
+                        <ul class="interest-list">
+                            <li class="interest-item" data-interest="movies">
+                                <i class="fa-solid fa-film"></i>
+                                Watching Movies/Series
+                                <span class="popup">Some of my favorite  Movies/Series are Game of Thrones, From, Stranger Things, Titanic etc.</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-cake-candles"></i>
+                                Baking
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-gamepad"></i>
+                                <a href="https://apps.apple.com/us/app/pubg-mobile/id1330123889" target="_blank">Gaming</a>
+                                <span class="popup-link">Check out my favorite game!</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-music"></i>
+                                <a href="https://youtube.com/playlist?list=PLoIY8oDFxE9fi1K0UiilRCvWzFc9xpVAu&si=JuEukL8GYFesTGlG" target="_blank">Music</a>
+                                <span class="popup-link">Some of my favorite music.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 
-    <main class="container">
-        <h1>About Me</h1>
+                <div class="about-right">
+                    <div class="about-intro">
+                        <p>
+                            I am currently a Software Engineering student and have been studying in this field for the past two years.
+                            When I first started, I had very little knowledge of programming and software development.
+                            My experience with technology was mostly limited to basic computer applications such as presentations and spreadsheets.
+                        </p>
+                        <P>
+                            As I progressed through my studies, I discovered how interesting software development can be.
+                            Learning new concepts and seeing ideas come to life through code has motivated me to continue growing in this field.
+                        </P>
+                        <P>
+                            Throughout my studies, I have worked on several projects that helped me develop my skills.
+                            One project I am particularly proud of is a bakery website that I designed and built.
+                        </P>
+                        <P>
+                            My educational journey has strengthened my interest in web development and inspired me to continue exploring new technologies and design principles.
+                        </P>
+                    </div>
 
-        <section>
-            <h2>Background</h2>
-            <p>
-                I am currently a Software Engineering student and have been studying in this field for the past two years. 
-                when I first started, I had very little knowledge of proramming and software development. My experience
-                with technology was mostly limited to basic computer applications such as presentations and spreadsheets. 
-
-                As I progressed trough my studies, I discovered how interesting software development can be. Learning new
-                concepts and seeing ideas come to life trough code has motivated me to continue growing in this field. 
-                One of the most valuable lessons I have learned is that practice and persistence are essential for 
-                improvement. 
-
-                Throughout my studies, I have worked on serveral projects that helped me develop my skills. One project 
-                I am particulary proud of is a bakery website that I designed ad built. Creating a website from scratch 
-                showed me how creativity and technology can work together tp create engaging user experience. 
-
-                My educational journey has strengthened my interest in web development and inspired me to continue
-                exploring new technologies and design principles. 
-            </p>
-        </section>
-
-        <section>
-            <h2>Interests</h2>
-            <p>
-                Outside of Siftware development, I enjoy a variety of creative and recreational activities. I am 
-                interested in web design and user experience, as I enjoy combining creativity with technology to
-                create engaging digital experiences. 
-
-                in my free time, I enjoy gaming, watching movies and series and exploring projects created by 
-                other developers. Seeing what others built inspires me to learn new skills and improve my own 
-                work.
-
-                I also enjoy creative activities such as coloring, as well as interests in beauty, fashion, 
-                cooking and baking. These hobbies allow me to express creativity in different ways and help
-                me maintain a balance between technical and creative interests. 
-
-                One of the things I find most rewarding is completing a project that I have worked hard on 
-                and solving challenges allong the way. I enjoy learning new things annd continuosly improving
-                both my technical and personal skills.
-            </p>
-        </section>
-
-        <section>
-            <h2>Education</h2>
-            <ul>
-                <li>
-                    <strong>Bachelor ... in Software Engineering (In progress)</strong><br/>
-                    <i>UNASAT (2024 - Present)</i>
-                </li>
-            </ul>
-        </section>
-    </main>
-
-
+                    <div class="about-section education">
+                        <h2>Education</h2>
+                        <div class="education-container">
+                            <div class="education-item">
+                                <div class="education-year">
+                                    2024 - Present
+                                </div>
+                                <div class="education-content">
+                                    <strong>Bachelor of Science in Software Engineering</strong>
+                                    <span>UNASAT</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+<script src="js/main.js" type="text/javascript"></script>
 </body>
 </html>
 

@@ -1,78 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
-        <meta name="vieuwport" content="width=device-width, initial-scale=1.0" />
-        <title> Charissa Kalka</title>
-        <link rel="stylesheet" href="/css/main.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Charissa Kalka</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
     </head>
 
-
-<body>
-    <header id="header">
-        <h1 class="logo=text"> Charissa Kalka </h1>
-        <nav class="nav">
-            <a class="nav-link" href="/">Home</a>
-            <a class="nav-link" href="/about.html">About</a> 
-            <a class="nav-link" href="/work.html">Work</a>  
-            <a class="nav-link" href="/contact.html">Contact</a>
+    <body>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <a href="index.html" class="navbar-logo">CK</a>
+                <button class="navbar-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+                <ul class="navbar-menu">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/work.html">Work</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </div>
         </nav>
+        <main> 
+        <section class="hero">
+            <div class="hero-left">
 
-        <button id="sidebar-trigger">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu-icon lucide-menu"><path d="M4 5h16"/><path d="M4 12h16"/><path d="M4 19h16"/></svg> 
-        </button>
-    </header>
+            <div class="profile-image">
+                <img src="/img/charissagraduation.jpg" alt="Photo of Charissa Kalka">
+            </div>
 
-    <main class="container"> 
-        <h1>Hey, I'm Charissa Kalka</h1>
-        <h2>Software Engineering Student</h2>
-        <p>
-            I am a Software Engineering student who
-            enjoys creating user-friendly and visually
-            appealing websites. I am passionate about 
-            Technology, programming and learning how software
-            can solve real-world problems. 
-        </p>
+            <!-- <div class="socials">
+                <a href="www.tiktok.com/@charissa.m4">
+                    <i class="fa-brands fa-tiktok"></i>
+                    <span class="tooltip">charissa.m4</span>
+                </a>
+                <a href="https://www.facebook.com/share/1BWGY1Cckj/?mibextid=wwXIfr">
+                    <i class="fa-brands fa-facebook"></i>
+                    <span class="tooltip">Charissa Kalka</span>
+                </a>
+                <a href="https://www.instagram.com/charissa.m4?igsh=OHVlaWQ5YjVocXdj&utm_source=qr">
+                    <i class="fa-brands fa-instagram"></i>
+                    <span class="tooltip">charissa.m4</span>
+                </a>
+                <a href="https://www.linkedin.com/in/charissa-kalka-a1b055418?utm_source=share_via&utm_content=profile&utm_medium=member_ios">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <span class="tooltip">Charissa Kalka</span>
+                </a>
+                </div> -->
+            </div>
 
-        <section>
-            <h2>Current Role</h2>
-            <h3>Software Engineering Student🎓</h3>
-            <p> I am currently studying Sofware Engineering and building skills in web
-                development, programming, databases, networking and software design.
-            </p>
-        </section>
+            <div class="hero-right">
+                <p class="greeting">
+                    Hey, I'm
+                </p>
+                <h1>Charissa Kalka</h1>
+                <h2>Software Engineering Student</h2>
+                <p class="description">
+                    I am a Software Engineering student who
+                    enjoys creating user-friendly and visually
+                    appealing websites. I am passionate about 
+                    Technology, programming and learning how software
+                    can solve real-world problems.
+                </p>
+            </div>
+            </section>
 
-        <section>
-            <h2>Recent Projects</h2>
+            <!-- <section class="current-role">
+                <h2>Current Role</h2>
+                <div class="role-card">
+                    <h3>Software Engineering Student</h3>
+                    <p>I am currently studying Software Engineering and building skills in web
+                        development, programming, databases, networking and software design.</p>
+                </div>
+            </section> -->
 
-        </section>
+            <section class="projects">
+                <h2 class="section-title">
+                    <img src="/img/8bitflower.png" alt="flower">
+                    Projects
+                </h2>
+                <div class="project-container">
+                    <a href="" target="_blank" class="project-card">
+                        <div class="project-image">
+                            <img src="/img/Screenshot 2026-07-09 172215.png" alt="Project 1">
+                            <div class="project-overlay">
+                                <span>Click me!</span>
+                            </div>
+                        </div>
+                        <h3>Sugar&Crumbs</h3>
+                     </a>
 
-        <section>
-            <h2>Skills</h2>
-            <h3>Programming</h3>
-            <ul>
-                <li>Java</li>
-                <li>JavaScript</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>SQL</li>
-            </ul>
-            <h3>Database</h3>
-            <ul>
-                <li>MySQL</li>
-                <li>Database Design</li>
-                <li>ERD Modeling</li>
-            </ul>
-            <h3>Other</h3>
-            <ul>
-                <li>Problem Solving</li>
-                <li>Teamwork</li>
-                <li>Communication</li>
-                <li>Critical Thinking</li>
-            </ul>
-        </section>
+                        <a href="https://github.com/viraitrisha/Surihealth-Old.git" target="_blank" class="project-card">
+                        <div class="project-image">
+                            <img src="/img/Screenshot 2026-07-09 171501.png" alt="Project 2">
+                            <div class="project-overlay">
+                                <span>Click me!</span>
+                            </div>
+                        </div>
+                        <h3>SuriHealth v1.0</h3>
+                     </a>
 
+                        <a href="https://github.com/viraitrisha/surihealth.git" target="_blank" class="project-card">   
+                        <div class="project-image">
+                            <img src="/img/Screenshot 2026-07-09 171501.png" alt="Project 3">
+                            <div class="project-overlay">
+                                <span>Click me!</span>
+                            </div>
+                        </div>
+                        <h3>SuriHealth v2.0</h3>
+                     </a>
+                </div>
+            </section>
+
+            <section class="skills">
+                <h2 class="section-title">
+                    <img src="/img/8bitflower.png" alt="flower">
+                    Skills
+                </h2>
+                <div class="skill-container">
+                    <div class="skill-bag">
+                        <img src="img/pinkbag2.png" alt="Skill handbag">
+                    </div>
+                    
+                    <img src="img/pijlen/1.png" class="arrow arrow-java">
+                    <div class="skill-item skill-java">
+                        <div class="skill-icon">
+                            <img src="img/java.jpeg" alt="Java">
+                        </div>
+                        <span class="skill-name">Java</span>
+                    </div>
+
+                    <img src="img/pijlen/2.png" class="arrow arrow-html">
+
+                    <div class="skill-item skill-html">
+                        <div class="skill-icon">
+                            <img src="img/html.jpeg" alt="HTML">
+                        </div>
+                        <span class="skill-name">HTML</span>
+                    </div>
+
+                    <div class="skill-item skill-css">
+                        <div class="skill-icon">
+                            <img src="img/css.jpeg" alt="CSS">
+                        </div>
+                        <span class="skill-name">CSS</span>
+                    </div>
+
+                    <div class="skill-item skill-javascript">
+                        <div class="skill-icon">
+                            <img src="img/java script.jpeg" alt="JavaScript">
+                        </div>
+                        <span class="skill-name">JavaScript</span>   
+                    </div>
+
+                    <div class="skill-item skill-sql">
+                        <div class="skill-icon">
+                            <img src="img/mysql.jpeg" alt="MySQL">
+                        </div>
+                        <span class="skill-name">MySQL</span>
+                    </div>
+                </div>
+            </section>
     </main>
-</body>
-</html>
 
+    <footer class="footer">
+        <p>&copy; Charissa Kalka</p>
+        <div class="footer-socials">
+            <a href="www.tiktok.com/@charissa.m4" target="_blank">
+                <i class="fa-brands fa-tiktok"></i>
+                <span class="tooltip">charissa.m4</span>
+            </a>
+
+            <a href="https://www.facebook.com/share/1BWGY1Cckj/?mibextid=wwXIfr" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+                <span class="tooltip">Charissa Kalka</span>
+            </a>
+
+            <a href="https://www.instagram.com/charissa.m4?igsh=OHVlaWQ5YjVocXdj&utm_source=qr" target="_blank">
+                <i class="fa-brands fa-instagram">
+                    <span class="tooltip">charissa.m4</span>
+                </i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/charissa-kalka-a1b055418?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+                <span class="tooltip">Charissa Kalka</span>
+            </a>
+        </div>
+    </footer>
+    <script src="js/main.js" type="text/javascript"></script>
+    </body>
+</html> 
