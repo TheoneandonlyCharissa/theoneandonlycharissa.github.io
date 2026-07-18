@@ -38,30 +38,6 @@
                     <div class="about-image">
                         <img src="img/charissagraduation.jpg" alt="Charissa">
                     </div>
-                    <div class="about-section interest">
-                        <h2>Interests</h2>
-                        <ul class="interest-list">
-                            <li class="interest-item" data-interest="movies">
-                                <i class="fa-solid fa-film"></i>
-                                Watching Movies/Series
-                                <span class="popup">Some of my favorite  Movies/Series are Game of Thrones, From, Stranger Things, Titanic etc.</span>
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-cake-candles"></i>
-                                Baking
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-gamepad"></i>
-                                <a href="https://apps.apple.com/us/app/pubg-mobile/id1330123889" target="_blank">Gaming</a>
-                                <span class="popup-link">Check out my favorite game!</span>
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-music"></i>
-                                <a href="https://youtube.com/playlist?list=PLoIY8oDFxE9fi1K0UiilRCvWzFc9xpVAu&si=JuEukL8GYFesTGlG" target="_blank">Music</a>
-                                <span class="popup-link">Some of my favorite music.</span>
-                            </li>
-                        </ul>
-                    </div>
                 </div>
 
                 <div class="about-right">
@@ -83,9 +59,39 @@
                             My educational journey has strengthened my interest in web development and inspired me to continue exploring new technologies and design principles.
                         </P>
                     </div>
+                </div>    
+            </div>        
+
+                    <div class="about-section interest">
+                        <h2>Interests</h2>
+                        <ul class="interest-list">
+                            <li class="interest-item" data-interest="movies">
+                                <i class="fa-solid fa-film"></i>
+                                Watching Movies/Series
+                                <span class="popup">Some of my favorite  Movies/Series are Game of Thrones, From, Stranger Things, Titanic etc.</span>
+                            </li>
+                            <li id="baking-secret">
+                                <i class="fa-solid fa-cake-candles"></i>
+                                Baking
+                            </li>
+                            <li id="gaming-secret">
+                                <i class="fa-solid fa-gamepad"></i>
+                                <!-- <a href="https://apps.apple.com/us/app/pubg-mobile/id1330123889" target="_blank">Gaming</a>
+                                <span class="popup-link">Check out my favorite game!</span> -->
+                                Gaming
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-music"></i>
+                                <a href="https://youtube.com/playlist?list=PLoIY8oDFxE9fi1K0UiilRCvWzFc9xpVAu&si=JuEukL8GYFesTGlG" target="_blank">Music</a>
+                                <span class="popup-link">Some of my favorite music.</span>
+                            </li>
+                        </ul>
+                    </div>         
 
                     <div class="about-section education">
-                        <h2>Education</h2>
+                        <h2 class="section-title">
+                            <img src="/img/8biteducation.png" alt="education">
+                            Education</h2>
                         <div class="education-container">
                             <div class="education-item">
                                 <div class="education-year">
@@ -97,11 +103,100 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="education-container">
+                            <div class="education-item">
+                                <div class="education-year">
+                                    2021 - 2024
+                                </div>
+                                <div class="education-content">
+                                    <strong>Voorbereidend Wetenschappelijk Onderwijs (VWO)</strong>
+                                    <span>Ewald P. Meyer lyceum</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
+                    
+                    <div id="secretMission" class="secret-mission">
+                        <div class="secret-box">
+                            <h2>Secret Mission</h2>
+                            <p>Choose wisely...</p>
+                            <div class="game-buttons">
+                                <button class="game-choice">Minecraft</button>
+                                <button class="game-choice">PUBG</button>
+                                <button class="game-choice">Among us</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="achievementPopup" class="secret-mission">
+                        <div class="secret-box">
+                            <h2> Achievement Unlocked!</h2>
+                            <p>You chose wisely.</p>
+                            <p>All three games have one thing in common...
+                                <br>
+                                They are my favorite games.
+                            </p>
+
+                            <button id="closeAchievement" class="game-choice">
+                                Continue
+                            </button>
+                        </div>
+                    </div>
+
+                    <div id="bakingMission" class="secret-mission">
+                        <div class="secret-box">
+                            <h2>Secret Recipe Found!</h2>
+                            <p>
+                                charissa's Favorite recipe
+                            </p>
+                            <div class="recipe">
+                                <p>Ingredients:</p>
+                                <span>Creativity</span>
+                                <span>A little patience</span>
+                                <span>Lots of sugar</span>
+                                <span>A lot of Love</span>
+                            </div>
+                            <button id="bakeCookie" class="game-choice">
+                                Bake Cookie
+                            </button>
+
+                            <p id="cookieCounter"> Cookies baked:0</p>
+                        </div>
+                    </div>
+
+                    <div id="bakingAchievement" class="secret-mission">
+                        <div class="secret-box">
+                            <h2>Achievement Unlocked</h2>
+                            <p>Master Baker</p>
+                            <P>Your recipe was a succes!</P>
+
+                            <button id="closeBaking" class="game-choice">Continue</button>
+                        </div>
+                    </div>
         </main>
+         <footer class="footer">
+        <p>&copy; Charissa Kalka</p>
+        <div class="footer-socials">
+            <a href="www.tiktok.com/@charissa.m4" target="_blank">
+                <i class="fa-brands fa-tiktok"></i>
+            </a>
+
+            <a href="https://www.facebook.com/share/1BWGY1Cckj/?mibextid=wwXIfr" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+
+            <a href="https://www.instagram.com/charissa.m4?igsh=OHVlaWQ5YjVocXdj&utm_source=qr" target="_blank">
+                <i class="fa-brands fa-instagram">
+                </i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/charissa-kalka-a1b055418?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+        </div>
+    </footer>
 <script src="js/main.js" type="text/javascript"></script>
+<script src="js/about.js" type="text/javascript"></script>
 </body>
 </html>
 
