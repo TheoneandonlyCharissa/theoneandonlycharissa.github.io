@@ -412,9 +412,7 @@ body{
 .footer-socials {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     gap: 20px;
-    /* max-width: 100%; */
 }
 
 .footer-socials a {
@@ -429,24 +427,6 @@ body{
     color: var(--hot-pink);
     transform: translateY(-3px);
 }
-
-/* .footer-socials .tooltip {
-    position: absolute;
-    bottom: 40px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: var(--navy);
-    color: var(--white);
-    padding: 6px 12px;
-    border-radius: 8px;
-    font-size: 0.75rem;
-    white-space: nowrap;
-    opacity: 0;
-    visibility: hidden;
-    transition: 0.3s ease;
-    border: 1px solid var(--hot-pink);
-    pointer-events: none;
-} */
 
 .footer-socials a:hover .tooltip {
     opacity: 1;

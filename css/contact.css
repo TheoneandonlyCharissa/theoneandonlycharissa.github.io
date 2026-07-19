@@ -142,14 +142,12 @@
     font-size: 1rem;
     font-family: inherit;
     color: var(--navy);
-    /* transition: border 0.15s, box-shadow 0.15s; */
     outline: none;
     background: var(--white);
 }
 
 .form-group input:focus, .form-group textarea:focus {
     border-color: var(--hot-pink);
-    /* background: var(--white); */
     box-sizing: 0 0 0 3px rgba(236, 72, 153, 0.2);
 }
 
