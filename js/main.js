@@ -19,8 +19,8 @@ navbarToggle.addEventListener('click', () => {
         `);
 
         const petals = [
-            "img/8bitcherry.png",
-            "img/8bitflower2.png"
+            "img/8bit-cherry.png",
+            "img/8bit-flower2.png"
         ];
 
         function createPetal(){
