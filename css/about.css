@@ -14,7 +14,7 @@
 }
 
 .about-page h1 {
-    color: var(--hot-pink);
+    color: var(--pink);
     font-size: 2.8rem;
     font-weight: 700;
     margin-bottom: 1rem;
@@ -75,6 +75,21 @@
     font-weight: 600;
     margin-bottom: 1rem;
     padding-bottom: 0.5rem;
+}
+
+.section-kitty {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--hot-pink);
+    font-size: 2rem;
+}
+
+.section-kitty img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 1rem;
+    image-rendering: pixelated;
 }
 
 .interest {

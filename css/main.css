@@ -19,10 +19,13 @@ html {
 
 
 body{
-    font-family: "Poppins", sans-serif;
+    font-family: "Nunito", sans-serif;
     background-color: var(--navy);
     color: var(--white);
     line-height: 1.6;
+}
+h1, h2, h3, .navbar-logo{
+    font-family: "Poppins", sans-serif;
 }
 
 .navbar {
@@ -50,10 +53,13 @@ body{
 
 .navbar-logo {
     font-size: 2rem;
-    font-weight: 600;
-    color: var(--pink);
-    text-decoration: none;
     cursor: pointer;
+}
+
+.navbar-logo img {
+    width: 60px;
+    height: auto;
+    display: block;
 }
 
 .navbar-container .navbar-menu {

@@ -198,6 +198,14 @@ input, textarea {
 }
 
 @media (max-width: 700px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .contact-left, .contact-right {
+        width: 100%;
+    }
+
     .contact-page {
         padding: 1.8rem 1.5rem;
         border-radius: 2rem;
@@ -214,7 +222,6 @@ input, textarea {
 
     .send-btn {
         width: 100%;
-        text-align: center;
         justify-content: center;
     }
 }
